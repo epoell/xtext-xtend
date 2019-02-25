@@ -71,8 +71,7 @@ public class XtendValidatorConfigurationBlock extends XbaseValidationConfigurati
 		super.fillCodingStyleSection(builder);
 		builder.addComboBox(API_TYPE_INFERENCE, "Type inference for API methods/fields:")
 				.addComboBox(IMPLICIT_RETURN, "Implicit return:")
-				.addComboBox(WRONG_FILE, "File name doesn't match type name:")
-				.addComboBox(MODIFIER_DOES_NOT_MATCH_TYPENAME, "Modifier does not match type name:");
+				.addComboBox(WRONG_FILE, "File name doesn't match type name:");
 	}
 
 	@Override
